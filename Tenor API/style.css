@@ -1,0 +1,121 @@
+body {
+    background: url(./image/btrfly.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+}
+
+body h1 {
+    background-color: rgba(112, 132, 163, 0.173);
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+    height: 130px;
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: Times, Times New Roman;
+    color: #4e67c8;
+    font-weight: bold;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 30px;
+}
+
+h1 {
+    -webkit-animation: mymove 5s infinite;
+    /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes mymove {
+    50% {
+        text-shadow: 15px 25px 35px blue;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes mymove {
+    50% {
+        text-shadow: 15px 25px 35px blue;
+    }
+}
+
+h1 .title {
+    padding: 30px;
+}
+
+.search-form {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+#submit-button {
+    background-color: lightblue;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(5, 8, 44, .2);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#search-key {
+    height: 25px;
+    background-color: rgba(228, 208, 224, 0.5);
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    margin-right: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.allGif {
+    height: 150px;
+    width: 25%;
+}
+
+#error-click {
+    color: rgb(119, 59, 168);
+    margin: auto;
+    padding-top: 40px;
+    height: 150px;
+    width: 70%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#img-container img {
+    width: 15%;
+    border-radius: 20px;
+    /* font-size: 100%; */
+}
+
+#img-container img:hover {
+    font-size: 500%;
+    width: 20%;
+    height: 250px;
+    transition: 2s;
+}
+
+img :hover {
+    size: 200px;
+}
